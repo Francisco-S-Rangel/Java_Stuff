@@ -1,5 +1,6 @@
 package exer_1;
 
+// Classe criada simplesmente para deixar o dodigo mais bem organizado.
 public class Endereco {
     public String rua;
     public int numero;

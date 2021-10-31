@@ -6,12 +6,14 @@ public class Cliente implements Funcionalidade{
     private String email;
     private String sexo;
     private int idade;
-    Pedido pedido = new Pedido();
-    Endereco endereco;
+    private Pedido pedido = new Pedido();
+    private Endereco endereco;
 
+    //Possui apenas dois metodos publicos para não possibilitar o uso inadequdo do software !!
     public void Cadastrar(){
         String aux="",rua="indefinido",cep="indefinido";
         int numero = 0;
+        JOptionPane.showMessageDialog(null,"Bem Vindo ao Dream Cars !\n\nFaça o Cadatro e escolha seu Carro do sonhos.");
         this.setNome(JOptionPane.showInputDialog("Nome do Cliente: "));
         rua =JOptionPane.showInputDialog("Rua: ");
         aux = JOptionPane.showInputDialog("Numero: ");
@@ -35,28 +37,28 @@ public class Cliente implements Funcionalidade{
         JOptionPane.showMessageDialog(null,"Dados do Pedido.\n\nProduto: " + pedido.getNome_produto() + "\nTipo: " + pedido.getTipo_produto()+
         "\nPreço: $" + pedido.getPreco() + "\nQuantidade: "+pedido.getQuantidade()+"\n");
     }
-   public String getNome() {
+   private String getNome() {
        return nome;
    }
-   public void setNome(String nome) {
+   private void setNome(String nome) {
        this.nome = nome;
    }
-   public String getEmail() {
+   private String getEmail() {
        return email;
    }
-   public void setEmail(String email) {
+   private void setEmail(String email) {
        this.email = email;
    }
-   public String getSexo() {
+   private String getSexo() {
        return sexo;
    }
-   public void setSexo(String sexo) {
+   private void setSexo(String sexo) {
        this.sexo = sexo;
    }
-   public int getIdade() {
+   private int getIdade() {
        return idade;
    }
-   public void setIdade(int idade) {
+   private void setIdade(int idade) {
        this.idade = idade;
    }
 }

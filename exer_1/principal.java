@@ -2,9 +2,14 @@ package exer_1;
 
 public class principal {
     public static void main(String[] args){
-        Sistema sistema = new Sistema();
+    Cliente cliente = new Cliente();
+   
 
-        sistema.PaineldeControle();
-        sistema.PaineldeControle();
+    //Inserir Informações no obj cliente !
+    cliente.Cadastrar();
+    // Verificar Informações no obj cliente !
+    cliente.Verificar();
+    cliente.Cadastrar();
+    cliente.Verificar();
     }
 }
