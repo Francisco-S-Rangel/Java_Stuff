@@ -13,7 +13,7 @@ public class Cliente implements Funcionalidade{
     public void Cadastrar(){
         String aux="",rua="indefinido",cep="indefinido";
         int numero = 0;
-        JOptionPane.showMessageDialog(null,"Bem Vindo ao Dream Cars !\n\nFaça o Cadatro e escolha seu Carro do sonhos.");
+        JOptionPane.showMessageDialog(null,"Bem Vindo ao Dream Cars !\n\nFaça o Cadastro e escolha seu Carro do sonhos.");
         this.setNome(JOptionPane.showInputDialog("Nome do Cliente: "));
         rua =JOptionPane.showInputDialog("Rua: ");
         aux = JOptionPane.showInputDialog("Numero: ");

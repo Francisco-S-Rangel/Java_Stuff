@@ -3,6 +3,7 @@ package exer_1;
 import javax.swing.JOptionPane;
 public class Catalogo {
     public String Popular(){
+        // O Catalogo ira retornar o atributo nome_produto para a Classe Produto !
         String aux,resp="undefined";
         aux = JOptionPane.showInputDialog("Escolha seu Carro: \n1-Onix\n2-HB20\n3-Gol");
         if(aux.equals("1")){
