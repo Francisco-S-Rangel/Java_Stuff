@@ -7,7 +7,7 @@ public class Pedido extends Produto{
     public void fazerPedido(){
         String auxiliar= " ";
         Escolher_Carro();
-        auxiliar = JOptionPane.showInputDialog("Quantos modelos desse carrro: ");
+        auxiliar = JOptionPane.showInputDialog("Quantos modelos desse carro: ");
         this.setQuantidade(Integer.parseInt(auxiliar));
     }
     public int getQuantidade() {
