@@ -19,7 +19,8 @@ class TypesofVariables {
         numeroMuitoPequeno = 0;
         inteiroPequeno = 0;
         inteiro = 10;
-        inteiroLongo = 100;
+        inteiroLongo = 100L; /* O Java apenas reconhece um "long" caso seja inserida
+        a letra L no final da mesma */
         real = 10.1f;/* o Java não gosta do tipo float porem permite 
         a utlização do mesmo contanto que se coloque um "f" para fazer referencia de float.*/
         realDuplo = 100.20; 
