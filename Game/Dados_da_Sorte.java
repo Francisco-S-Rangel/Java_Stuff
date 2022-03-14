@@ -30,5 +30,7 @@ public class Dados_da_Sorte {
          }
         }while(continuar.equals("Sim")||continuar.equals("sim"));
         System.out.println("Até a proxíma!");
+
+        entrada.close();
     }
 }
